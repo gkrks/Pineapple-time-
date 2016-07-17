@@ -13,11 +13,11 @@ public class Solution {
         long x = sc.nextLong();
         
         long a = x-t;
-        if(t == s){
+        if(t == x){
             System.out.println("YES");
         }
         else{
-            if(a%s == 0 || a%s == 1 && x>= s+t){
+            if((a%s == 0 || a%s == 1 )&& x>= s+t){
                 System.out.println("YES");
             }
             else{
